@@ -1,0 +1,58 @@
+.main-header {
+  background-color: var(--dark-blue);
+  color: white;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.logo span {
+  font-weight: 300;
+  border: 1px solid white;
+  padding: 2px 4px;
+  margin-right: 4px;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  width: 24px;
+  height: 2px;
+  background-color: white;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: white;
+  color: var(--dark-blue);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
