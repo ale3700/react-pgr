@@ -1,11 +1,10 @@
-/* src/index.css */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  --dark-blue: #003355; /* Cor aproximada do header */
-  --light-gray-bg: #f4f5f7; /* Cor de fundo da página */
+  --dark-blue: #003355; 
+  --light-gray-bg: #f4f5f7; 
   --text-color: #333;
   --border-color: #ddd;
 }

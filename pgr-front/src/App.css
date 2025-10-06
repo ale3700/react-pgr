@@ -45,14 +45,13 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #f4f5f7; /* Cor de fundo que vemos na imagem */
+  background-color: #f4f5f7; 
 }
 
-/* Esta é a nova classe que vai limitar e centralizar o nosso conteúdo */
 .main-container {
   width: 100%;
-  max-width: 1280px;  /* Largura máxima do conteúdo (ajuste conforme necessário) */
-  margin: 0 auto;     /* Este truque centraliza o container */
-  padding: 2rem;      /* Espaçamento interno */
+  max-width: 1280px;  
+  margin: 0 auto;     
+  padding: 2rem;     
 }
 

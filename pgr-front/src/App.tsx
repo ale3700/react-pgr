@@ -4,11 +4,9 @@ import './App.css';
 
 function App() {
   return (
-    // A div .app agora serve apenas como um invólucro geral, sem limites de largura
     <div className="app">
-      <Header /> {/* O Header está livre para ocupar 100% da largura */}
+      <Header /> 
       
-      {/* Criamos um novo container APENAS para o conteúdo que deve ser centralizado */}
       <main className="main-container">
         <Dashboard />
       </main>

@@ -1,28 +1,57 @@
+:root {
+  --dark-blue: #1a2a44;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+.content {
+  padding-top: 85px; 
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+
 .main-header {
   background-color: var(--dark-blue);
   color: white;
-  padding: 1rem 1rem;
+  
+  height: 70px;
+  
+  padding: 0 1.5rem; 
+  
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; 
+  align-items: center; 
+
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
 }
 
 .header-left, .header-right {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .logo {
-  font-size: 3rem;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
-.logo span {
-  font-weight: 300;
-  border: 1px solid white;
-  padding: 2px 4px;
-  margin-right: 4px;
+.logo img {
+  height: 45px; 
+  
+  width: auto; 
 }
 
 .menu-icon {
@@ -44,6 +73,7 @@
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .btn-primary {
@@ -51,8 +81,17 @@
   color: var(--dark-blue);
 }
 
+.btn-primary:hover {
+  background-color: #e0e0e0;
+}
+
 .btn-secondary {
   background-color: transparent;
   color: white;
   border: 1px solid white;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: var(--dark-blue);
 }

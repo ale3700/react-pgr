@@ -1,7 +1,6 @@
 import React from 'react';
 import './Dashboard.css';
 
-// Adicionamos a tipagem React.FC
 const Dashboard: React.FC = () => {
   const cardCount = 10;
   const cards = Array.from({ length: cardCount });
